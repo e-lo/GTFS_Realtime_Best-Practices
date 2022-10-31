@@ -10,6 +10,10 @@ site_dir: site
 theme:
   name: material
 
+plugins:
+    - search
+    - macros
+
 # close to mobilitydata color sorta maybe
 palette:
   primary: '#301934'
@@ -27,19 +31,8 @@ font:
 nav:
   - 'Introduction': 'index.md'
   - 'About': 'about.md'
-  - 'Feeds': 
-    - 'FeedEntity': 'FeedEntity.md'
-    - 'FeedHeader': 'FeedHeader.md'
-    - 'VehiclePosition': 'VehiclePosition.md'
-    - 'TripUpdate': 'TripUpdate.md'
-    - 'Alerts': 'Alert.md'
-  - 'Messages': 
-    - 'Position': 'Position.md'
-    - 'StopTimeEvent': 'StopTimeEvent.md'
-    - 'StopTimeUpdate': 'StopTimeUpdate.md'
-    - 'TripDescriptor': 'TripDescriptor.md'
-    - 'VehicleDescriptor': 'VehicleDescriptor.md'
-  - 'Use-cases': 
-    - 'Frequency-based service': 'Frequency-based.md'
-    
+  - 'General': 'general.md'
+  - 'Feeds': "Feeds/index.md"
+  - 'Messages': "Messages/index.md"
+  - 'Use-cases': "Use-cases/index.md"
     
